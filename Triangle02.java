@@ -6,14 +6,13 @@ public class Triangle02 {
 
         System.out.print("Masukkan nilai N = ");
         int N = sc.nextInt();
-        int i = 1;
+        int i = 0;
         while (i <= N) {
-            int j = 1;
-            while (j <= i) {
+            int j = 0;
+            while (j < i) {
                 System.out.print("*");
                 j++;
             }
-            System.out.println("");
             i++;
         }
     }
